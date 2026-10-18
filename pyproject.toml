@@ -4,7 +4,16 @@ version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
     "ipykernel>=7.4.0",
+    "librosa>=1.0.0",
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
     "pandas>=3.0.6",
+    "scikit-image>=0.26.0",
+    "scikit-learn>=1.9.1",
+    "umap-learn>=0.5.12",
+]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.17.2",
 ]
