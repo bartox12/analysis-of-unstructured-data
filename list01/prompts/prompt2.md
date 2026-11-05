@@ -44,7 +44,7 @@ Implement PCA from scratch via the SVD and reproduce `sklearn.decomposition.PCA`
 5. `n_components_for_variance`: the smallest k with cumulative EVR >= threshold.
 
 ## Step 4 - `src/plotting.py` (add functions, keep previous ones)
-- `plot_cumulative_explained_variance`: step or line plot of the cumulative EVR against the number of components, with per component EVR as light bars on the same axis. Draw horizontal dashed lines at the thresholds and vertical lines at$$$ddwdwdwdwdwssssswdwdwdwdwdddddddddd the k reaching each one.
+- `plot_cumulative_explained_variance`: step or line plot of the cumulative EVR against the number of components, with per component EVR as light bars on the same axis. Draw horizontal dashed lines at the thresholds and vertical lines at the k reaching each one.
 - `plot_2d_embedding`: scatter of the first two columns coloured by class.
 - `plot_components_as_images`: small grid showing the first n principal axes as 8×8 images with a heatmap centred at 0. 
 

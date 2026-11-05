@@ -15,5 +15,6 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "jupyterlab>=4.6.5",
     "nbconvert>=7.17.2",
 ]
